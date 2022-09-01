@@ -2,7 +2,7 @@
 
 ## What is it?
 
-This resource was created so server staff can conveniently keep their server secure & while maintaining a positive experience on the server. 
+This resource was created so server staff can conveniently keep their server secure while maintaining a positive experience on the server. 
 
 When the command is executed, the player will be prompted a report menu allowing them to enter an ID & Reason. Upon submitting, the script will send a webhook to the discord displaying a screenshot along with an embed containing the reported players details.
 
