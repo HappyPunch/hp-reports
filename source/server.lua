@@ -57,7 +57,7 @@ AddEventHandler("HP-Reports:Server", function(pID, reason)
                 },
                 30000)
             else
-                sendToDisc("Player ["..GetPlayerName(pID).."] was reported..", 
+                sendToDisc("Player ["..pID.."] ["..GetPlayerName(pID).."] was reported..", 
                 "**Reason**: ``"..reason.."``"..
                 "\n**Game License:** ``"..gameLicense..
                 "``\n**Discord UID:** ``"..discord:gsub('discord:', '')..
