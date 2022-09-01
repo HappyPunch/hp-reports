@@ -19,6 +19,8 @@ The following can be found in the ``sv_config.lua`` file.
     DiscordWebhook = '', -- Do not forget to add a webhook.
 }
 ```
+## Dependency
+https://forum.cfx.re/t/free-ox-library-ui-and-lua-modules/4853434 -- This resource is required in order for this script to work.
 
 ## Download
 https://github.com/HappyPunch/hp-reports
