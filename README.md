@@ -28,6 +28,9 @@ The following can be found in the ``sv_config.lua`` file.
 ## Dependency
 https://forum.cfx.re/t/free-ox-library-ui-and-lua-modules/4853434 -- This resource is required in order for this script to work.
 
+## screenshot-basic & discord-screenshot
+https://github.com/jaimeadf/discord-screenshot/releases/tag/1.3.7 -- Only required if you use the screenshot system
+
 ## Download
 https://github.com/HappyPunch/hp-reports
 
