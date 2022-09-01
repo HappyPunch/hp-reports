@@ -13,7 +13,6 @@ RegisterCommand("report", function(source, args, rawCommand)
     if input then
         local pID = tonumber(input[1])
         local reason = input[2]
-        print(pID, reason)
 
         if pID == nil then
             TriggerEvent('chatMessage', '', {255, 255, 255}, prefix..'^1ERROR: Be sure to include an ID.') 
