@@ -20,7 +20,7 @@ The following can be found in the ``sv_config.lua`` file.
         StaffRoleID = "", -- leave empty if disabled.
     },
     -- Requires [screenshot-basic] - Defaults to false, set to true if you wish to enable.
-    Screenshot = true,
+    Screenshot = false,
     -- To prevent exploitation I made the webhook server-sided.
     DiscordWebhook = '', -- Do not forget to add a webhook.
    }
