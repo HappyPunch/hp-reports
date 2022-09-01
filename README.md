@@ -25,6 +25,9 @@ The following can be found in the ``sv_config.lua`` file.
     DiscordWebhook = '', -- Do not forget to add a webhook.
    }
 ```
+
+``hp-reports.view`` - Ace Permission. Required to view reports.
+
 ## Dependency
 https://forum.cfx.re/t/free-ox-library-ui-and-lua-modules/4853434 -- This resource is required in order for this script to work.
 
