@@ -82,11 +82,7 @@ function sendToDisc(title, msg, fmsg)
             },
         }
     }
-    if Config.AlertStaff.PingStaff then
-        PerformHttpRequest(Config.DiscordWebhook, function(err, text, headers) end, 'POST', json.encode({username = name, embeds = embed, content = "<@&"..Config.AlertStaff.StaffRoleID..">"}), { ['Content-Type'] = 'application/json' })
-    else
-        PerformHttpRequest(Config.DiscordWebhook, function(err, text, headers) end, 'POST', json.encode({username = name, embeds = embed}), { ['Content-Type'] = 'application/json' })
-    end
+    PerformHttpRequest(Config.DiscordWebhook, function(err, text, headers) end, 'POST', json.encode({username = name, embeds = embed}), { ['Content-Type'] = 'application/json' })
 end
 
 function GetAllPlayers()
