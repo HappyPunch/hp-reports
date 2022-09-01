@@ -25,7 +25,7 @@ AddEventHandler("HP-Reports:Server", function(pID, reason)
             TriggerClientEvent('chatMessage', src, prefix.."\nThank you for submitting a report! Staff will be with you shortly.")
                 local players = GetAllPlayers()
                 for i=1, #players do
-                    if IsPlayerAceAllowed(players[i], "Staff.Access") then
+                    if IsPlayerAceAllowed(players[i], "hp-reports.view") then
                         TriggerClientEvent('chatMessage', players[i], 
                         prefix.."\n^1Player ^1[^3"..pID.."^1] ^3"..GetPlayerName(pID).." ^1was reported by: ^1[^3"..src.."^1] ^3"..name.." ^1for: ^3"..reason)
                     end
