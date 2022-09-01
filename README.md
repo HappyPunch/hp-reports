@@ -13,12 +13,6 @@ You can also enable or disable the screenshot system in the config file.
 The following can be found in the ``sv_config.lua`` file.
 ```
     Config = {
-    AlertStaff = {
-        -- Defaults to false, If true, on player report the staff will be alerted.
-        PingStaff = false,
-        -- Enter the Staff Role ID. 
-        StaffRoleID = "", -- leave empty if disabled.
-    },
     -- Requires [screenshot-basic] - Defaults to false, set to true if you wish to enable.
     Screenshot = false,
     -- To prevent exploitation I made the webhook server-sided.
