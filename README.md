@@ -32,7 +32,7 @@ https://github.com/jaimeadf/discord-screenshot/releases/tag/1.3.7 -- Only requir
 https://github.com/HappyPunch/hp-reports
 
 ## Preview
-https://www.youtube.com/watch?v=u8qdWwO9qyU
+https://www.youtube.com/watch?v=oQ0xCRQycZ4
 
 ## Developer
 https://github.com/BreezyTheDev
